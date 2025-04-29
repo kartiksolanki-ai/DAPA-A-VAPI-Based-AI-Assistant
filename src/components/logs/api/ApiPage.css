@@ -1,0 +1,110 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #ffffffde;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.css-bjgps0 {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: var(--chakra-space-4);
+  gap: var(--chakra-space-2);
+}
+.css-ojgw2y {
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding-inline-start: var(--chakra-space-2);
+  padding-inline-end: var(--chakra-space-2);
+  text-transform: none;
+  font-size: var(--chakra-fontSizes-xs);
+  border-radius: var(--chakra-radii-full);
+  font-weight: var(--chakra-fontWeights-bold);
+  background: var(--chakra-colors-green-600);
+  color: var(--chakra-colors-white);
+  box-shadow: var(--badge-shadow);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: var(--chakra-space-1);
+  padding-bottom: var(--chakra-space-1);
+  line-height: var(--chakra-lineHeights-none);
+}
+
+.css-1akcczz {
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding-inline-start: var(--chakra-space-2);
+  padding-inline-end: var(--chakra-space-2);
+  text-transform: none;
+  font-size: var(--chakra-fontSizes-xs);
+  border-radius: var(--chakra-radii-full);
+  font-weight: var(--chakra-fontWeights-bold);
+  background: var(--chakra-colors-blue-500);
+  color: var(--chakra-colors-white);
+  box-shadow: var(--badge-shadow);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: var(--chakra-space-1);
+  padding-bottom: var(--chakra-space-1);
+  line-height: var(--chakra-lineHeights-none);
+  min-width: 70px;
+}
+
+.css-3v5xmd {
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding-inline-start: var(--chakra-space-2);
+  padding-inline-end: var(--chakra-space-2);
+  text-transform: none;
+  font-size: var(--chakra-fontSizes-xs);
+  border-radius: var(--chakra-radii-full);
+  font-weight: var(--chakra-fontWeights-bold);
+  background: var(--chakra-colors-green-600);
+  color: var(--chakra-colors-white);
+  box-shadow: var(--badge-shadow);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: var(--chakra-space-1);
+  padding-bottom: var(--chakra-space-1);
+  line-height: var(--chakra-lineHeights-none);
+  min-width: 70px;
+}
+.css-etuqq1 {
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding-inline-start: var(--chakra-space-2);
+  padding-inline-end: var(--chakra-space-2);
+  text-transform: none;
+  font-size: var(--chakra-fontSizes-xs);
+  border-radius: var(--chakra-radii-full);
+  font-weight: var(--chakra-fontWeights-bold);
+  background: var(--chakra-colors-red-600);
+  color: var(--chakra-colors-white);
+  box-shadow: var(--badge-shadow);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: var(--chakra-space-1);
+  padding-bottom: var(--chakra-space-1);
+  line-height: var(--chakra-lineHeights-none);
+  min-width: 70px;
+}

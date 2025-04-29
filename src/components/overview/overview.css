@@ -1,0 +1,331 @@
+:root {
+  --background: 216 13% 8%;
+  --foreground: 216 8% 12%;
+  --card: 216 13% 8%;
+  --card-foreground: 0 0% 98%;
+  --popover: 216 13% 8%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 173.22 51.11% 44.12%;
+  --primary-foreground: 173.22 31.11% 14.12%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 220 10% 12%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 76% 57%;
+  --destructive-foreground: 0 70% 88%;
+  --warning: 41 96% 40%;
+  --warning-foreground: 52 100% 88%;
+  --border: 240 3% 20%;
+  --input: 240 3.7% 15.9%;
+  --ring: 240 4.9% 43.9%;
+  --placeholder: 240 3.8% 36.1%;
+  --text: 0 0% 100%;
+  --icon: 216 0% 100%;
+  --hover: 216 8% 12%;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  overflow-y: auto !important;
+  z-index: 0 !important;
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent !important;
+  z-index: 0 !important;
+  background-color: transparent !important;
+}
+
+.hide-scrollbar:hover,
+.hide-scrollbar:focus,
+.hide-scrollbar:active {
+  scrollbar-width: auto;
+  -ms-overflow-style: auto;
+}
+
+.hide-scrollbar:hover::-webkit-scrollbar,
+.hide-scrollbar:focus::-webkit-scrollbar,
+.hide-scrollbar:active::-webkit-scrollbar {
+  width: auto;
+  height: auto;
+}
+
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
+    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
+    var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
+    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
+    var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
+    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
+    var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
+    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
+    var(--tw-backdrop-sepia);
+}
+
+.bg-secondary\/50 {
+  background-color: hsl(var(--secondary) / 0.5);
+}
+
+.border-border {
+  border-color: hsl(var(--border));
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+}
+
+.shadow-black\/20 {
+  --tw-shadow-color: rgb(0 0 0 / 0.2);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.bg-foreground {
+  background-color: hsl(var(--foreground));
+}
+.border-border {
+  border-color: hsl(var(--border));
+}
+.border {
+  border-width: 1px;
+}
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.tabular-nums {
+  --tw-numeric-spacing: tabular-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero)
+    var(--tw-numeric-figure) var(--tw-numeric-spacing)
+    var(--tw-numeric-fraction);
+}
+
+@media (min-width: 768px) {
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+.text-text {
+  color: hsl(var(--text));
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
+.text-text {
+  color: hsl(var(--text));
+}
+
+.text-text\/15 {
+  color: hsl(var(--text) / 0.15);
+}
+
+.text-text\/20 {
+  color: hsl(var(--text) / 0.2);
+}
+
+.text-text\/30 {
+  color: hsl(var(--text) / 0.3);
+}
+
+.text-text\/40 {
+  color: hsl(var(--text) / 0.4);
+}
+
+.text-text\/50 {
+  color: hsl(var(--text) / 0.5);
+}
+
+.text-text\/60 {
+  color: hsl(var(--text) / 0.6);
+}
+
+.text-text\/70 {
+  color: hsl(var(--text) / 0.7);
+}
+
+.text-text\/80 {
+  color: hsl(var(--text) / 0.8);
+}
+
+.text-text\/90 {
+  color: hsl(var(--text) / 0.9);
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.text-warning {
+  color: hsl(var(--warning));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-white\/40 {
+  color: #fff6;
+}
+
+.text-white\/50 {
+  color: #ffffff80;
+}
+
+.text-white\/60 {
+  color: #fff9;
+}
+
+.text-white\/80 {
+  color: #fffc;
+}
+
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-yellow-500\/70 {
+  color: #eab308b3;
+}
+
+.text-yellow-500\/75 {
+  color: #eab308bf;
+}
+
+.text-yellow-600 {
+  --tw-text-opacity: 1;
+  color: rgb(202 138 4 / var(--tw-text-opacity));
+}
+
+.text-yellow-600\/70 {
+  color: #ca8a04b3;
+}
+
+.text-zinc-200 {
+  --tw-text-opacity: 1;
+  color: rgb(228 228 231 / var(--tw-text-opacity));
+}
+
+.text-opacity-50 {
+  --tw-text-opacity: 0.5;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.\!no-underline {
+  text-decoration-line: none !important;
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fill-icon {
+  fill: hsl(var(--icon));
+}
+
+.fill-icon\/100 {
+  fill: hsl(var(--icon) / 1);
+}
+
+.fill-icon\/20 {
+  fill: hsl(var(--icon) / 0.2);
+}
+
+.fill-icon\/30 {
+  fill: hsl(var(--icon) / 0.3);
+}
+
+.fill-icon\/40 {
+  fill: hsl(var(--icon) / 0.4);
+}
+
+.fill-icon\/50 {
+  fill: hsl(var(--icon) / 0.5);
+}
+
+.fill-icon\/60 {
+  fill: hsl(var(--icon) / 0.6);
+}
+
+.fill-icon\/80 {
+  fill: hsl(var(--icon) / 0.8);
+}
+
+.fill-indigo-400 {
+  fill: #818cf8;
+}
+
+.fill-muted-foreground {
+  fill: hsl(var(--muted-foreground));
+}
+
+.fill-none {
+  fill: none;
+}
+
+.fill-primary {
+  fill: hsl(var(--primary));
+}
+
+.fill-primary\/30 {
+  fill: hsl(var(--primary) / 0.3);
+}
+
+.fill-primary\/60 {
+  fill: hsl(var(--primary) / 0.6);
+}
+
+.fill-primary\/80 {
+  fill: hsl(var(--primary) / 0.8);
+}

@@ -1,2 +1,0 @@
-# DAPA- A VAPI Based AI Assistant
-DAPA (Dynamic AI-Powered Assistant) is an intelligent, voice-enabled system built using Vapi, designed to offer seamless conversational AI experiences tailored for various real-world applications. Whether it’s task automation, smart assistant features, or contextual understanding, DAPA combines the power of Vapi’s voice capabilities with custom AI models to deliver fast, accurate, and human-like interactions.
